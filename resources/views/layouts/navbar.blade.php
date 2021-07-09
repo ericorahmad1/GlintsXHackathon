@@ -25,7 +25,7 @@
                             </li>
 
                             <li><a href="{{url('home/contact')}}">Contact Us</a></li>
-                            <li><a href="#" class="text-color-blue">Login/Create Account</a></li>
+                            <li><a href="{{url('login')}}" class="text-color-blue">Login/Sign Up</a></li>
                             <li><a href="#"></a></li>
 
                         </ul>

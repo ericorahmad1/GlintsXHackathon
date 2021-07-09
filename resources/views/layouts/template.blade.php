@@ -21,14 +21,15 @@
     </head>
 
 <body>
-    @include('layouts.navbar')    
+    <br>
+    @include('layouts.navbar')   
     @yield('content')
 
-    
+    <br>
+    <br>
     @include('layouts.footer')
-
     <div class="sub-footer">
-        <p>Copyright © 2020 Ngantor - Glints X Hackathon</p>
+        <p>Copyright © 2021 PT Ngantor Indonesia Groups - Glints X Hackathon</p>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>

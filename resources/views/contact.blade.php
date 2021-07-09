@@ -1,7 +1,7 @@
 @extends('layouts.Template')
 @section('content')
 
-<section class="banner banner-secondary" id="top" style="background-image: url(img/banner-image-3-1920x300.jpg);">
+<section class="banner banner-secondary" id="top" style="background-image: url('{{asset('img/banner-image-3-1920x300.jpg')}}');">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -54,9 +54,9 @@
                                         <div class="content"> 
                                             <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium.</p>
                                             <ul>
-                                                <li><span>Phone:</span><a href="#">+1 333 4040 5566</a></li>
-                                                <li><span>Email:</span><a href="#">contact@company.com</a></li>
-                                                <li><span>Address:</span><i class="fa fa-map-marker"></i> 212 Barrington Court New York</li>
+                                                <li><span>Phone:</span><a href="#">+62 812-8714-5517</a></li>
+                                                <li><span>Email:</span><a href="#">kukuhutama94@gmail.com</a></li>
+                                                <li><span>Address:</span><i class="fa fa-map-marker"></i> Jakarta, Indonesia</li>
                                             </ul>
                                         </div>
                                     </div>

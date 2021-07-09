@@ -109,7 +109,7 @@
                               <label>
                                    <input type="checkbox">
 
-                                   <span>Associate Degree (5)</span>
+                                   <span>Bachelor Degree (5)</span>
                               </label>
                          </div>
 
@@ -117,7 +117,7 @@
                               <label>
                                    <input type="checkbox">
 
-                                   <span>Associate Degree (5)</span>
+                                   <span>Master Degree (5)</span>
                               </label>
                          </div>
 
@@ -171,7 +171,7 @@
                                     <div class="down-content">
                                         <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
-                                        <p> Medical / Health Jobs</p>
+                                        <p> Cooking / Culiner Jobs</p>
 
                                         <p><span><strong><sup>$</sup>60 000</strong></span></p>
 
@@ -199,7 +199,7 @@
                                     <div class="down-content">
                                         <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
-                                        <p> Medical / Health Jobs</p>
+                                        <p> Civil / Mechanical Jobs</p>
 
                                         <p><span><strong><sup>$</sup>60 000</strong></span></p>
 
@@ -227,7 +227,7 @@
                                     <div class="down-content">
                                         <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
-                                        <p> Medical / Health Jobs</p>
+                                        <p> Teacher / Education Jobs</p>
 
                                         <p><span><strong><sup>$</sup>60 000</strong></span></p>
 
@@ -255,7 +255,7 @@
                                     <div class="down-content">
                                         <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
-                                        <p> Medical / Health Jobs</p>
+                                        <p> Mechanical / Engineering Jobs</p>
 
                                         <p><span><strong><sup>$</sup>60 000</strong></span></p>
 
@@ -283,7 +283,7 @@
                                     <div class="down-content">
                                         <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
-                                        <p> Medical / Health Jobs</p>
+                                        <p> Firefighter / Goverment Jobs</p>
 
                                         <p><span><strong><sup>$</sup>60 000</strong></span></p>
 
@@ -311,7 +311,7 @@
                                     <div class="down-content">
                                         <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
-                                        <p> Medical / Health Jobs</p>
+                                        <p> Service / Company Jobs</p>
 
                                         <p><span><strong><sup>$</sup>60 000</strong></span></p>
 

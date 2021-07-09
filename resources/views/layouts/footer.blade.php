@@ -6,12 +6,15 @@
                     <div class="logo">
                         <img src="{{url('img/Ngantor-resize.png')}}" alt="Venue Logo">
                     </div>
-                    <p>Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellustea dictumst.</p>
+                    <p>Ngantor is a career development and recruitment platfo
+                    rm that has a dream to become the largest in Southeast Asia. Established in 2021 in Indonesia, Glints has a vision to help more than 1 million Freshgraduates to help build their potential. Every day, we help connect candidates with suitable job opportunities.</p>
                     <ul class="social-icons">
                         <li>
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-email"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -19,7 +22,7 @@
             <div class="col-md-4">
                 <div class="useful-links">
                     <div class="footer-heading">
-                        <h4>Useful Links</h4>
+                        <h4>Company Links</h4>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -31,9 +34,9 @@
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <li><a href="{{url('home/jobs')}}"><i class="fa fa-stop"></i>Jobs</a></li>
-                                <li><a href="{{url('home/testimonials')}}"><i class="fa fa-stop"></i>Testimonials</a></li>
-                                <li><a href="{{url('home/blog')}}"><i class="fa fa-stop"></i>Blog</a></li>
+                                <li><a href="{{url('home/jobs')}}"><i class="fa fa-stop"></i>Most Popular Jobs</a></li>
+                                <li><a href="{{url('home/testimonials')}}"><i class="fa fa-stop"></i>Meet Our Managerials Team</a></li>
+                                <li><a href="{{url('home/blog')}}"><i class="fa fa-stop"></i>Career Tips & Tricks</a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,8 +49,8 @@
                     </div>
                     <p><i class="fa fa-map-marker"></i> Jakarta, Indonesia</p>
                     <ul>
-                        <li><span>Phone:</span><a href="#">+1 333 4040 5566</a></li>
-                        <li><span>Email:</span><a href="#">contact@ngantor.com</a></li>
+                        <li><span>Phone:</span><a href="#">+62 812-8714-5517</a></li>
+                        <li><span>Email:</span><a href="mailto:kukuhutama94@gmail.com">kukuhutama94@gmail.com</a></li>
                     </ul>
                 </div>
             </div>

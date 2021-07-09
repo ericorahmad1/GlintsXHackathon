@@ -22,9 +22,9 @@
                         <div class="left-content">
                             <br>
                             <h4>About us</h4>
-                            <p>Aenean hendrerit metus leo, quis viverra purus condimentum nec. Pellentesque a sem semper, lobortis mauris non, varius urna. Quisque sodales purus eu tellus fringilla.<br><br>Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellus, id efficitur leo. In hac habitasse platea dictumst. Vel sequi odit similique repudiandae ipsum iste, quidem tenetur id impedit, eaque et, aliquam quod.</p>
+                            <p>Ngantor is Indonesia-based online employment website that provide compatible job matching feature and professional learning platforms for jobseekers as well as job posting platforms and effective recruitment system for recruiters (companies)..<br><br></p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure cupiditate id unde quis ut maxime, accusantium aperiam consectetur saepe delectus ducimus accusamus, ad doloremque ea. Quam, suscipit quidem perspiciatis asperiores, libero cum saepe hic pariatur eos deleniti illum minima minus.</p>
+                            <p>Ngantor is a career development and recruitment platfo rm that has a dream to become the largest in Southeast Asia. Established in 2021 in Indonesia, Glints has a vision to help more than 1 million Freshgraduates to help build their potential. Every day, we help connect candidates with suitable job opportunities..</p>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -39,15 +39,15 @@
             <div class="video-content">
                 <div class="inner">
                       <div class="section-heading">
-                          <span>Lorem ipsum dolor.</span>
-                          <h2>Vivamus nec vehicula felis</h2>
+                          <span>Quotes.</span>
+                          <h2>Napoleon Hill</h2>
                       </div>
                       <!-- Modal button -->
 
                       <div class="container">
                         <div class="row">
                             <div class="col-lg-10 col-lg-offset-1">
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi blanditiis, esse deserunt assumenda! Tempora nulla natus illum soluta quasi, nisi, in quaerat cumque corrupti ipsum impedit necessitatibus expedita minus harum, fuga id aperiam autem architecto odio. Perferendis eius possimus ex itaque tenetur saepe id quis dicta voluptas, corrupti sapiente hic!</p>
+                                <p class="lead">Patience, persistence and perspiration make an unbeatable combination for success</p>
                             </div>
                         </div>
                       </div>

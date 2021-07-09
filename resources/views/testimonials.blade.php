@@ -1,7 +1,7 @@
 @extends('layouts.Template')
 @section('content')
 
-<section class="banner banner-secondary" id="top" style="background-image: url(img/banner-image-3-1920x300.jpg);">
+<section class="banner banner-secondary" id="top" style="background-image: url('{{asset('img/banner-image-3-1920x300.')}}jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
