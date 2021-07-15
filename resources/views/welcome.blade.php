@@ -8,9 +8,46 @@
                     <div class="banner-caption">
                         <div class="line-dec"></div>
                         <h2>The Future of Job Search and Career Development</h2>
-                        <div class="blue-button">
-                            <a href="{{url('home/contact')}}">Contact Us.</a>
+                        <!-- Job Search Form -->
+                        <div class="job-search-form wow fadeInUp" data-wow-delay="1000ms">
+                            <form method="POST" action="#">
+                                <div class="row">
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                                        <span class="icon flaticon-search-1"></span>
+                                        <input type="text" name="field_name" placeholder="Job title, keywords, or company">
+                                    </div>
+
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-3 col-md-12 col-sm-12 location">
+                                        <span class="icon flaticon-map-locator"></span>
+                                        <input type="text" name="field_name" placeholder="City or postcode">
+                                    </div>
+
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-3 col-md-12 col-sm-12 category">
+                                        <span class="icon flaticon-briefcase"></span>
+                                        <select class="chosen-select">
+                                            <option value="">All Categories</option>
+                                            <option value="44">Accounting / Finance</option>
+                                            <option value="106">Automotive Jobs</option>
+                                            <option value="46">Customer</option>
+                                            <option value="48">Design</option>
+                                            <option value="47">Development</option>
+                                            <option value="45">Health and Care</option>
+                                            <option value="105">Marketing</option>
+                                            <option value="107">Project Management</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Form Group -->
+                                    <div class="form-group col-lg-2 col-md-12 col-sm-12 text-right">
+                                        <button type="submit" class="theme-btn btn-style-two">Find Jobs</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
+                        <!-- Job Search Form -->
                     </div>
                 </div>
             </div>
@@ -49,8 +86,8 @@
                             <span>Most Popular jobs in 2021</span>
                             <h2>See whats in the needs in 2021.</h2>
                         </div>
-                    </div> 
-                </div> 
+                    </div>
+                </div>
 
                 <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -114,7 +151,7 @@
 
                                 <div class="overlay-content">
                                  <strong title="Author"><i class="fa fa-user"></i>Ngantor Teams</strong> &nbsp;
-                                 <strong title="Posted on"><i class="fa fa-calendar"></i> 12/06/2020</strong> 
+                                 <strong title="Posted on"><i class="fa fa-calendar"></i> 12/06/2020</strong>
                                  <strong title="Views"><i class="fa fa-map-marker"></i> Indonesia</strong>
                                 </div>
                             </div>
@@ -130,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="featured-item">
                             <div class="thumb">
@@ -172,7 +209,7 @@
                                  <strong title="Location"><i class="fa fa-map-marker"></i> London</strong>
                                 </div>
                             </div>
-                            
+
                             <div class="down-content">
                                 <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
@@ -200,7 +237,7 @@
                                  <strong title="Location"><i class="fa fa-map-marker"></i> London</strong>
                                 </div>
                             </div>
-                            
+
                             <div class="down-content">
                                 <h4>Lorem ipsum dolor sit amet, consectetur</h4>
 
@@ -226,8 +263,8 @@
                             <span>Career Tips & Tricks</span>
                             <h2>Get Tips for Career Accelaration from Professional</h2>
                         </div>
-                    </div> 
-                </div> 
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="featured-item">
@@ -290,7 +327,7 @@
 
                                 <div class="overlay-content">
                                  <strong title="Author"><i class="fa fa-user"></i>Ngantor Teams</strong> &nbsp;
-                                 <strong title="Posted on"><i class="fa fa-calendar"></i> 12/06/2020</strong> 
+                                 <strong title="Posted on"><i class="fa fa-calendar"></i> 12/06/2020</strong>
                                  <strong title="Views"><i class="fa fa-map-marker"></i> Indonesia</strong>
                                 </div>
                             </div>
@@ -335,8 +372,8 @@
                             <span>Meet our Managerials Team</span>
                             <h2>See the people behind Ngantor</h2>
                         </div>
-                    </div> 
-                </div> 
+                    </div>
+                </div>
 
                 <div class="owl-carousel owl-theme">
                     <div class="item popular-item">
