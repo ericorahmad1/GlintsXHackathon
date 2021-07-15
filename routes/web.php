@@ -61,6 +61,10 @@ Route::get('home/testimonials', function() {
     return view('testimonials');
 });
 
+Route::get('home/seeker', function() {
+    return view('seeker_dashboard');
+});
+
 
 Auth::routes();
 
