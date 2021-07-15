@@ -69,3 +69,6 @@ Route::get('home/seeker', function() {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/feedback', [App\Http\Controllers\FeedbackController::class, 'index'])->name('feedback');
+Route::get('/recruit_dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('recruit_dashboard');
+Route::get('/seeker_dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('seeker_dashboard');
