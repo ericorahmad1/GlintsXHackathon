@@ -1,7 +1,7 @@
-@extends('layouts.Template')
+@extends('layouts.template')
 @section('content')
 
-<section class="banner" id="top" style="background-image:url('{{asset('img/homepage-banner-image-1920x700.jpg')}}');">
+    <section class="banner" id="top" style="background-image:url('{{asset('img/homepage-banner-image-1920x700.jpg')}}');">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -9,7 +9,7 @@
                         <div class="line-dec"></div>
                         <h2>The Future of Job Search and Career Development</h2>
                         <!-- Job Search Form -->
-                        <div class="job-search-form wow fadeInUp" data-wow-delay="1000ms">
+                        {{-- <div class="job-search-form wow fadeInUp" data-wow-delay="1000ms">
                             <form method="POST" action="#">
                                 <div class="row">
                                     <!-- Form Group -->
@@ -42,15 +42,49 @@
 
                                     <!-- Form Group -->
                                     <div class="form-group col-lg-2 col-md-12 col-sm-12 text-right">
-                                        <button type="submit" class="theme-btn btn-style-two">Find Jobs</button>
+                                        <button type="submit" class="btn btn-lg btn-outline-primary">Find Jobs</button>
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div> --}}
                         <!-- Job Search Form -->
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Job search -->
+    <section class="search-sec">
+        <div class="container">
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <input type="text" class="form-control search-slt" placeholder="Enter Keywords, Job, Location. etc..">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <input type="text" class="form-control search-slt" placeholder="Enter Location">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                    <option>Category</option>
+                                    <option>Information Technology / IT</option>
+                                    <option>Business</option>
+                                    <option>Designer</option>
+                                    <option>Human Resources</option>
+                                    <option>Sales and marketing</option>
+                                    <option>Accounting and Finance</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <button type="button" class="btn btn-success wrn-btn">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 
