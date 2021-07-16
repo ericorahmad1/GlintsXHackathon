@@ -72,3 +72,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/feedback', [App\Http\Controllers\FeedbackController::class, 'index'])->name('feedback');
 Route::get('/recruit_dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('recruit_dashboard');
 Route::get('/seeker_dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('seeker_dashboard');
+
+Auth::routes();
+
+Route::get('/home', function() {
+    return view('home');
+})->name('home')->middleware('auth');
