@@ -15,7 +15,13 @@ class CreateUserTypeTable extends Migration
     {
         Schema::create('user_type', function (Blueprint $table) {
             $table->id();
+            $table->string('type_name')->nullable();
             $table->timestamps();
+        });
+
+        // change id recruiter
+        Schema::table('user_type', function (Blueprint $table) {
+            $table->renameColumn('id', 'id_user_type');
         });
     }
 

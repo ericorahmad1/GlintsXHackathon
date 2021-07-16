@@ -20,6 +20,11 @@ class CreateRecruiterTable extends Migration
             $table->string('status')->nullable();
             $table->timestamps();
         });
+
+        // change id recruiter
+        Schema::table('recruiter', function (Blueprint $table) {
+            $table->renameColumn('id', 'id_recruiter');
+        });
     }
 
     /**

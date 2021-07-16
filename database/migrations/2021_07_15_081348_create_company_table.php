@@ -30,6 +30,11 @@ class CreateCompanyTable extends Migration
             $table->string('website')->nullable();
             $table->timestamps();
         });
+
+        // change id company
+        Schema::table('company', function (Blueprint $table) {
+            $table->renameColumn('id', 'id_company');
+        });
     }
 
     /**

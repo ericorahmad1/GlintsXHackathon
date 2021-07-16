@@ -5,8 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Rating extends Model
+class Hiring extends Model
 {
+    /**
+     * table to store records.
+     */
+    protected $table = 'hiring';
+
+    /**
+     * Primary key.
+     */
+    protected $primaryKey = 'id_hiring';
+
     /**
      * Attributes to guard against mass-assignment.
      *
@@ -14,8 +24,17 @@ class Rating extends Model
      */
     protected $guarded = [];
 
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
     protected $fillable = [
-        'comment'
+        'id_users_account',
+        'id_job',
+        'status',
+        'review',
+        'feedback'
     ];
 
     public function user()

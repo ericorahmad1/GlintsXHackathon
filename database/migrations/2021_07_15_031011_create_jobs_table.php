@@ -23,13 +23,13 @@ class CreateJobsTable extends Migration
             $table->string('carrer_level')->nullable();
             $table->string('category')->nullable();
             $table->string('job_location')->nullable();
-            $table->date('job_start-date')->nullable();
-            $table->date('job_end-date')->nullable();
+            $table->date('job_start_date')->nullable();
+            $table->date('job_end_date')->nullable();
             $table->string('job_type')->nullable();
             $table->timestamps();
         });
 
-        // change id supply
+        // change id jobs
         Schema::table('jobs', function (Blueprint $table) {
             $table->renameColumn('id', 'id_job');
         });
