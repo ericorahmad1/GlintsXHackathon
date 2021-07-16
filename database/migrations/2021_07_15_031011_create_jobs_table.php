@@ -29,7 +29,7 @@ class CreateJobsTable extends Migration
             $table->timestamps();
         });
 
-        // change id supply
+        // change id jobs
         Schema::table('jobs', function (Blueprint $table) {
             $table->renameColumn('id', 'id_job');
         });

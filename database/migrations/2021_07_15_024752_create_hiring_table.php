@@ -33,7 +33,7 @@ class CreateHiringTable extends Migration
             $table->timestamps();
         });
 
-        // change id supply
+        // change id hiring
         Schema::table('hiring', function (Blueprint $table) {
             $table->renameColumn('id', 'id_hiring');
         });
