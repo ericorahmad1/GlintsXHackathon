@@ -13,7 +13,7 @@ class CreateHiringTable extends Migration
      */
     public function up()
     {
-        Schema::create('hiring ', function (Blueprint $table) {
+        Schema::create('hiring', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('id_users_account')->nullable();
             $table->bigInteger('id_job')->nullable();
