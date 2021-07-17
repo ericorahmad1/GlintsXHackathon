@@ -19,8 +19,8 @@
     <section class="content">
         <div class="container-fluid">
             <h2 class="text-center display-4">Search Jobs</h2>
-
-            <div class="row">
+            <br>
+            {{-- <div class="row">
                 <div class="col-md-12">
                     <div class="card acik-renk-form">
                         <div class="card-body">
@@ -72,11 +72,36 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-            </div>
-
-
+            </div> --}}
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-lg-8 offset-2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <input type="text" class="form-control search-slt" placeholder="Enter Keywords, Job, Location. etc..">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <input type="text" class="form-control search-slt" placeholder="Enter Location">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                    <option>Job Category</option>
+                                    <option>Information Technology / IT</option>
+                                    <option>Business</option>
+                                    <option>Designer</option>
+                                    <option>Human Resources</option>
+                                    <option>Sales and marketing</option>
+                                    <option>Accounting and Finance</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                                <button type="button" class="btn btn-success wrn-btn">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 

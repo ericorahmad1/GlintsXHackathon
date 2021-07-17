@@ -54,7 +54,7 @@
         </div>
     </section>
 
-    <!-- Job search -->
+    <!-- Start Job search -->
     {{-- <section class="search-sec">
         <div class="container">
             <form action="#" method="post">
@@ -87,6 +87,7 @@
             </form>
         </div>
     </section> --}}
+    {{-- End Job Search --}}
 
     <main>
         <section class="our-services">
