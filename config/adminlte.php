@@ -45,12 +45,12 @@ return [
     |
     */
 
-    'logo' => '<b>NGANTOR</b>Portal Jobs',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo' => '<b>Recruiter</b>',
+    'logo_img' => 'img/ngantor.png',
+    'logo_img_class' => 'brand-image img-square',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Ngantor',
+    'logo_img_alt' => 'Ngantor Job Portal',
 
     /*
     |--------------------------------------------------------------------------
@@ -248,14 +248,14 @@ return [
         ],
         [
             'text'        => 'Dashboard',
-            'url'         => 'admin/index',
+            'url'         => 'home',
             'icon'        => 'far fa-fw fa-file',
             'label_color' => 'success',
         ],
         ['header' => 'HR'],
         [
             'text' => 'Jobs',
-            'url'  => 'admin/jobs',
+            'url'  => 'recruiter/feedback',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
@@ -287,13 +287,6 @@ return [
                     'text' => 'Jobs Overview',
                     'url'  => '#',
                 ],
-            ],
-        ],
-
-        [
-            'text'    => 'Masters',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
                 [
                     'text' => 'Experience Levels',
                     'url'  => '#',
@@ -320,22 +313,32 @@ return [
             ],
         ],
 
-        ['header' => 'labels'],
-        [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
-        ],
+        // [
+        //     'text'    => 'Masters',
+        //     'icon'    => 'fas fa-fw fa-share',
+        //     'submenu' => [
+        //         [
+        //             '' => '',
+        //         ],
+        //     ],
+        // ],
+
+        // ['header' => 'labels'],
+        // [
+        //     'text'       => 'important',
+        //     'icon_color' => 'red',
+        //     'url'        => '#',
+        // ],
+        // [
+        //     'text'       => 'warning',
+        //     'icon_color' => 'yellow',
+        //     'url'        => '#',
+        // ],
+        // [
+        //     'text'       => 'information',
+        //     'icon_color' => 'cyan',
+        //     'url'        => '#',
+        // ],
     ],
 
     /*

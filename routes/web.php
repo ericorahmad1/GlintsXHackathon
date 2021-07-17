@@ -61,10 +61,22 @@ Route::get('home/testimonials', function () {
     return view('testimonials');
 });
 
-Route::get('home/seeker', function () {
-    return view('seeker_dashboard');
+
+// Recruiter
+
+Route::get('recruiter/feedback', function() {
+    return view('recruiter/feedback');
 });
 
+Route::get('recruiter/recruiter_dashboard', function () {
+    return view('recruiter/recuit_dashboard');
+});
+
+// Job Seeker
+
+Route::get('seeker/seeker_dashboard', function() {
+    return view('seeker/seeker_dashboard');
+});
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 // Route::get('/feedback', [App\Http\Controllers\FeedbackController::class, 'index'])->name('feedback');

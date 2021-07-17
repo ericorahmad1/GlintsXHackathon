@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', '')
+@section('title', 'Dashboard ngantor')
 
 @section('content_header')
     <h1>Dashboard</h1>
@@ -169,32 +169,14 @@
                         <a href="#">Adam Jones</a>
                         <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
                       </span>
-                      <span class="description">Posted 5 photos - 5 days ago</span>
+                      <span class="description">Senior Designer - UI/UX Designer</span>
                     </div>
                     <!-- /.user-block -->
-                    <div class="row mb-3">
-                      <div class="col-sm-6">
-                        <img class="img-fluid" src="https://adminlte.io/themes/v3/dist/img/photo1.png" alt="Photo">
-                      </div>
-                      <!-- /.col -->
-                      <div class="col-sm-6">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <img class="img-fluid mb-3" src="https://adminlte.io/themes/v3/dist/img/photo2.png" alt="Photo">
-                            <img class="img-fluid" src="https://adminlte.io/themes/v3/dist/img/photo3.jpg" alt="Photo">
-                          </div>
-                          <!-- /.col -->
-                          <div class="col-sm-6">
-                            <img class="img-fluid mb-3" src="https://adminlte.io/themes/v3/dist/img/photo4.jpg" alt="Photo">
-                            <img class="img-fluid" src="https://adminlte.io/themes/v3/dist/img/photo1.png" alt="Photo">
-                          </div>
-                          <!-- /.col -->
-                        </div>
-                        <!-- /.row -->
-                      </div>
-                      <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
+                    
+                    <p>
+                     Test 
+                    </p>
+
 
                     <p>
                       <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> Share</a>

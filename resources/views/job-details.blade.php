@@ -7,8 +7,8 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="banner-caption">
                         <div class="line-dec"></div>
-                        <h2>Security officer - luxury retail</h2>
-                        <h4><i class="fa fa-briefcase"></i> Security / Protective services jobs</h4>
+                        <h2>Project Manager - Project Management</h2>
+                        <h4><i class="fa fa-briefcase"></i> Manager / Software services jobs</h4>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-xs-12">
                 <div>
-                    <img src="{{url('img/product-1-720x480.jpg')}}" alt="" class="img-responsive wc-image">
+                    <img src="{{url('img/product-6-720x480.jpg')}}" alt="" class="img-responsive wc-image">
                 </div>
                 <br>
                 </div>
@@ -55,7 +55,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="accordion-trigger">About Cannon Guards Security ltd</a>
+                        <a class="accordion-trigger">About Ngantor Team ltd</a>
                         <div class="accordion-content">
                             <p class="lead"> <i class="fa fa-map-marker"></i> London </p>
 
@@ -115,7 +115,7 @@
                             <br>
                             
                             <strong>
-                                <a href="http://www.cannonguards.com/">http://www.cannonguards.com/</a>
+                                <a href="#">http://www.ngantor.com/</a>
                             </strong>
                             </p>
                         </div>
