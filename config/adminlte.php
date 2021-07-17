@@ -247,61 +247,79 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
+            'text'        => 'Dashboard',
+            'url'         => 'admin/index',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
+        ['header' => 'HR'],
         [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
+            'text' => 'Jobs',
+            'url'  => 'admin/jobs',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'Job Application',
+            'url'  => 'admin/job_app',
+            'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text'    => 'multilevel',
+            'text' => 'Users',
+            'url'  => 'admin/users',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+
+        [
+            'text' => 'Interview',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa-time',
+        ],
+
+        [
+            'text'    => 'Reports',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
+                    'text' => 'Candidates Overview',
                     'url'  => '#',
                 ],
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
+                    'text' => 'Jobs Overview',
                     'url'  => '#',
                 ],
             ],
         ],
+
+        [
+            'text'    => 'Masters',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Experience Levels',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Qualifications',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Interview Stages',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Jobs Departments',
+                    'url'  => '#',
+                ],[
+                    'text' => 'Document Type',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'System Settings',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+
         ['header' => 'labels'],
         [
             'text'       => 'important',
@@ -376,7 +394,7 @@ return [
             ],
         ],
         'Select2' => [
-            'active' => false,
+            'active' => true,
             'files' => [
                 [
                     'type' => 'js',
@@ -391,7 +409,7 @@ return [
             ],
         ],
         'Chartjs' => [
-            'active' => false,
+            'active' => true,
             'files' => [
                 [
                     'type' => 'js',
@@ -401,7 +419,7 @@ return [
             ],
         ],
         'Sweetalert2' => [
-            'active' => false,
+            'active' => true,
             'files' => [
                 [
                     'type' => 'js',

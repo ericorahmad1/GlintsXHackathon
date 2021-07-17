@@ -7,8 +7,8 @@
     width: 100%;
     /* font-size: 0.875rem; */
     line-height: 1.5;
-    color: #55595c;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000;
     background-image: none;
     border: 1px solid #ccc;
     /* height: calc(3rem + 2px) !important; */
@@ -36,6 +36,27 @@
     }
 }
 /* End search box */
+
+/* Search Job List */
+.firma-ara{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.form-arka-plan{
+    background-image: url("https://cdn.filepicker.io/api/file/1WxRtkAQG5h70aoPQdGA/convert?format=jpeg&quality=50");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.acik-renk-form{
+    background: rgba(199, 116, 116, 0.58);
+}
+.siyah-cerceve{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+/* End Search Job List */
 
 /* Body */
 body {

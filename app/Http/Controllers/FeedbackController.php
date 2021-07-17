@@ -7,6 +7,16 @@ use Illuminate\Http\Request;
 
 class FeedbackController extends Controller
 {
+      /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -15,6 +25,7 @@ class FeedbackController extends Controller
     public function index()
     {
         //
+        return view('recruiter/feedback');
     }
 
     /**

@@ -9,7 +9,7 @@
                         <div class="line-dec"></div>
                         <h2>The Future of Job Search and Career Development</h2>
                         <!-- Job Search Form -->
-                        {{-- <div class="job-search-form wow fadeInUp" data-wow-delay="1000ms">
+                        <div class="job-search-form wow fadeInUp" data-wow-delay="1000ms">
                             <form method="POST" action="#">
                                 <div class="row">
                                     <!-- Form Group -->
@@ -41,12 +41,12 @@
                                     </div>
 
                                     <!-- Form Group -->
-                                    <div class="form-group col-lg-2 col-md-12 col-sm-12 text-right">
+                                    <div class="form-group col-lg-2 col-md-12 col-sm-12">
                                         <button type="submit" class="btn btn-lg btn-outline-primary">Find Jobs</button>
                                     </div>
                                 </div>
                             </form>
-                        </div> --}}
+                        </div>
                         <!-- Job Search Form -->
                     </div>
                 </div>
@@ -55,7 +55,7 @@
     </section>
 
     <!-- Job search -->
-    <section class="search-sec">
+    {{-- <section class="search-sec">
         <div class="container">
             <form action="#" method="post">
                 <div class="row">
@@ -69,7 +69,7 @@
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-12 p-0">
                                 <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                    <option>Category</option>
+                                    <option>Job Category</option>
                                     <option>Information Technology / IT</option>
                                     <option>Business</option>
                                     <option>Designer</option>
@@ -86,7 +86,7 @@
                 </div>
             </form>
         </div>
-    </section>
+    </section> --}}
 
     <main>
         <section class="our-services">
@@ -460,7 +460,7 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="{{url('img/popular_item_5.jpg')}}" alt="">
+                            <img src="{{url('img/Tayib.jpg')}}" alt="">
                             <div class="text-content">
                                 <h4>Tayib Wini</h4>
                                 <span>"Strategist Lead."</span>

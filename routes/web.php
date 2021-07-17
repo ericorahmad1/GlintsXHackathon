@@ -78,3 +78,11 @@ Auth::routes();
 Route::get('/home', function() {
     return view('home');
 })->name('home')->middleware('auth');
+
+Route::get('/feedback', function() {
+    return view('feedback');
+})->name('feedback')->middleware('auth');
+
+Route::get('/recruit_dashboard', function() {
+    return view('recruit_dashboard');
+})->name('recruit_dashboard')->middleware('auth');
